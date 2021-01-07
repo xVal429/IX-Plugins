@@ -32,7 +32,6 @@ ix.anim.SetModelClass("models/dpfilms/metropolice/tron_police.mdl", "metrocop") 
 ix.anim.SetModelClass("models/dpfilms/metropolice/urban_police.mdl", "metrocop") -- Urban Police 
 ix.anim.SetModelClass("models/dpfilms/metropolice/zombie_police.mdl", "metrocop") -- Zombie/Infected Police 
 
-
 -- jQueary's Combine Soldiers Redone (https://steamcommunity.com/sharedfiles/filedetails/?id=2223658602)
 ix.anim.SetModelClass("models/jq/hlvr/characters/combine/combine_captain/combine_captain_hlvr_npc.mdl", "overwatch")
 ix.anim.SetModelClass("models/jq/hlvr/characters/combine/grunt/combine_grunt_hlvr_npc.mdl", "overwatch")
@@ -45,11 +44,22 @@ ix.anim.SetModelClass("models/hlvr/characters/hazmat_worker/npc/hazmat_worker_co
 ix.anim.SetModelClass("models/hlvr/characters/worker/npc/worker_citizen.mdl", "citizen_male")
 ix.anim.SetModelClass("models/hlvr/characters/worker/npc/worker_combine.mdl", "overwatch")
 
+-- Combine Soldiers Redone (https://steamcommunity.com/sharedfiles/filedetails/?id=1976083346)
+ix.anim.SetModelClass("models/ninja/combine/combine_soldier.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combine_soldier_prisonguard.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combine_super_soldier.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combinonew.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combinonew_armor.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combinonew_mopp.mdl", "overwatch")
+
 -- Civil Protection Upgrades (https://steamcommunity.com/sharedfiles/filedetails/?id=2149815819)
 ix.anim.SetModelClass("models/ma/hla/terranovafemalepolice.mdl", "metrocop")
 ix.anim.SetModelClass("models/ma/hla/terranovafemalepolicedead.mdl", "metrocop")
 ix.anim.SetModelClass("models/ma/hla/terranovapolice.mdl", "metrocop")
 ix.anim.SetModelClass("models/ma/hla/terranovapolicedead.mdl", "metrocop")
+
+-- C24 Civil Protection Model (https://steamcommunity.com/sharedfiles/filedetails/?id=1119769089)
+ix.anim.SetModelClass("models/dpfilms/metropolice/24nebcop.mdl", "metrocop")
 
 -- HL2TS2 Citizen Models Overhaul (https://steamcommunity.com/sharedfiles/filedetails/?id=1801690724)
 	-- I don't even know if this needs an animation fix.
