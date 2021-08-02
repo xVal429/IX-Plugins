@@ -62,7 +62,7 @@ ix.anim.SetModelClass("models/ma/hla/terranovapolicedead.mdl", "metrocop")
 ix.anim.SetModelClass("models/dpfilms/metropolice/24nebcop.mdl", "metrocop")
 
 -- HL2TS2 Citizen Models Overhaul (https://steamcommunity.com/sharedfiles/filedetails/?id=1801690724)
-	-- I don't even know if this needs an animation fix.
+	-- I don't even know if this needs an animation fix, but I made it anyway.
 	-- MALE
 ix.anim.SetModelClass("models/fty/citizens/male_01.mdl", "citizen_male")
 ix.anim.SetModelClass("models/fty/citizens/male_02.mdl", "citizen_male")
@@ -163,3 +163,40 @@ ix.anim.SetModelClass("models/suits/male_09_open_tie.mdl", "citizen_male")
 ix.anim.SetModelClass("models/suits/male_09_open_waistcoat.mdl", "citizen_male")
 ix.anim.SetModelClass("models/suits/male_09_shirt.mdl", "citizen_male")
 ix.anim.SetModelClass("models/suits/male_09_shirt_tie.mdl", "citizen_male")
+
+
+-- Combine Soldiers Redone
+ix.anim.SetModelClass("models/ninja/combine/combine_soldier.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combine_soldier_prisonguard.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combine_super_soldier.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combinonew.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combinonew_armor.mdl", "overwatch")
+ix.anim.SetModelClass("models/ninja/combine/combinonew_mopp.mdl", "overwatch")
+
+-- Xen Fungus Zombies + Hazmat CP Models
+ix.anim.SetModelClass("models/ccr/hazmat/hazmatmetrocop.mdl", "metrocop")
+
+-- Willard Networks
+ix.anim.SetModelClass("models/willardnetworks/vortigaunt.mdl", "vortigaunt")
+ix.anim.SetModelClass("models/willardupgrades/civilprotection.mdl", "metrocop")
+
+-- Willard Networks Combine 2.0 (I really like their models.)
+ix.anim.SetModelClass("models/willardnetworks/combine/charger.mdl", "overwatch")
+ix.anim.SetModelClass("models/willardnetworks/combine/ordinal.mdl", "overwatch")
+ix.anim.SetModelClass("models/willardnetworks/combine/soldier.mdl", "overwatch")
+ix.anim.SetModelClass("models/willardnetworks/combine/suppressor.mdl", "overwatch")
+for i = 1,9 do ix.anim.SetModelClass("models/wn7new/metropolice/male_0"..i..".mdl", "metrocop") end
+ix.anim.SetModelClass("models/wn7new/metropolice/male_10.mdl", "metrocop")
+
+-- Combine Soldier Pack
+ix.anim.SetModelClass("models/combine_darkelite1_soldier.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_darkelite_soldier.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_overwatch_soldier.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_soldier2000.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_soldiergrunt.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_soldieros.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_soldierproto.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_soldierproto_drt.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_soldiersnow.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_super_soldierproto.mdl", "overwatch")
+ix.anim.SetModelClass("models/combine_super_soldierprotodirt.mdl", "overwatch")
