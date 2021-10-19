@@ -17,4 +17,4 @@ Thank you :)
 
 > v_rollstat ; Stat/attribute based rolling, made upon request, never updated. Report any bugs to me, no guarantees I'll fix them, though.
 
-> val_drg folder ; Various (one) nextbots made on the DrG nextbot base. Currently contains a Zombine which supports player possession. Nextbot only has melee attacks, will add the bombing later on.
+> val_drg folder ; Various (one) nextbots made on the DrG nextbot base. Currently contains a Zombine which supports player possession. Nextbot only has melee attacks, will add the bombing later on. DISCLAIMER: The zombine is /awful/ and is only up so I can look back on old code. I do not suggest using it. It is mediocre.
