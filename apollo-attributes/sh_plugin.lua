@@ -6,7 +6,7 @@ PLUGIN.author = "Val"
 ix.command.Add("roll", {
     description = "Roll a random number.",
     arguments = {bit.bor(ix.type.number, ix.type.optional), bit.bor(ix.type.number, ix.type.optional)},
-    OnRun = function(self, client, numDice, numSides)
+    OnRun = function(self, client, numSides, numDice)
         numDice = numDice or 1
         numSides = numSides or 20
 
@@ -164,38 +164,38 @@ ix.chat.Register("rollstat", {
 })
 
 if (SERVER) then
-ix.log.AddType("rollstat", function(client, value, attr, attrVal, critVal, data)
-    local format = "%s rolled %d out of %d on %s"
-    local formatWithBoost = "%s rolled %d (%d + %d) out of %d on %s"
-    local formatWithDice = "%s rolled %d out of %d (%d + %d) on %s"
-    local formatWithBoostAndDice = "%s rolled %d (%d + %d) out of %d (%dd%d) on %s"
-    local critSuccess = ", a critical success."
-    local critFailure = ", a critical failure."
-
-    local message
-    if attrVal > 0 and data.numDice > 1 then
-        message = string.format(formatWithBoostAndDice, client:Name(), tonumber(value) + tonumber(attrVal), tonumber(value), attrVal, data.numDice * data.numSides, data.numDice, data.numSides, attr)
-    elseif attrVal > 0 then
-        message = string.format(formatWithBoost, client:Name(), tonumber(value) + tonumber(attrVal), tonumber(value), attrVal, data.numDice * data.numSides, attr)
-    elseif data.numDice > 1 then
-        message = string.format(formatWithDice, client:Name(), tonumber(value), data.numDice * data.numSides, data.numDice, data.numSides, attr)
-    else
-        message = string.format(format, client:Name(), tonumber(value), data.numDice * data.numSides, attr)
-    end
-
-    if critVal == 1 then
-        return message .. critSuccess
-    elseif critVal == -1 then
-        return message .. critFailure
-    else
+    ix.log.AddType("rollstat", function(client, value, attr, attrVal, critVal, data)
+        local format = "%s rolled %d out of %d on %s"
+        local formatWithBoost = "%s rolled %d (%d + %d) out of %d on %s"
+        local formatWithDice = "%s rolled %d out of %d (%d + %d) on %s"
+        local formatWithBoostAndDice = "%s rolled %d (%d + %d) out of %d (%dd%d) on %s"
+        local critSuccess = ", a critical success."
+        local critFailure = ", a critical failure."
+    
+        local message
+        if attrVal > 0 and data.numDice > 1 then
+            message = string.format(formatWithBoostAndDice, client:Name(), tonumber(value) + tonumber(attrVal), tonumber(value), attrVal, data.numDice * data.numSides, data.numDice, data.numSides, attr)
+        elseif attrVal > 0 then
+            message = string.format(formatWithBoost, client:Name(), tonumber(value) + tonumber(attrVal), tonumber(value), attrVal, data.numDice * data.numSides, attr)
+        elseif data.numDice > 1 then
+            message = string.format(formatWithDice, client:Name(), tonumber(value), data.numDice * data.numSides, data.numDice, data.numSides, attr)
+        else
+            message = string.format(format, client:Name(), tonumber(value), data.numDice * data.numSides, attr)
+        end
+    
+        if critVal == 1 then
+            return message .. critSuccess
+        elseif critVal == -1 then
+            return message .. critFailure
+        else
+            return message .. "."
+        end
+    end)
+    
+    ix.log.AddType("roll", function(client, value, data)
+        local format = "%s rolled %d out of %d (%dd%d)"
+    
+        local message = string.format(format, client:Name(), tonumber(value), data.numDice * data.numSides, data.numDice, data.numSides)
         return message .. "."
-    end
-end)
-
-ix.log.AddType("roll", function(client, value, data)
-    local format = "%s rolled %d out of %d (%dd%d)"
-
-    local message = string.format(format, client:Name(), tonumber(value), data.numDice * data.numSides, data.numDice, data.numSides)
-    return message .. "."
-end)
+    end)
 end
