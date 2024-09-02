@@ -10,6 +10,7 @@ These plugins have been made for various servers, and typically will be the most
 ## [ Archon ]
 ### [Archon Factions - Chumtoad](https://github.com/xVal429/IX-Plugins/tree/master/%5B%20Archon%20%5D/archon_factions_chumtoad)
 REQUIREMENT: [Half-Life Resurgence](https://steamcommunity.com/workshop/filedetails/?id=2548809283)
+
 Adds a standalone Chumtoad faction with a custom animation class to actually ensure they function. Uses the Half-Life Resurgence Chumtoad.
 - Includes low-light vision for first-person, the first-person effects can be toggled.
 - Includes some config things.
