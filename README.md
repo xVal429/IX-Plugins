@@ -5,7 +5,7 @@ If you use any of my plugins, feel free to edit them as you wish, but please don
 
 Thank you :)
 
-# Made For Servers
+# == Made For Servers ==
 These plugins have been made for various servers, and typically will be the most refined products out of this repository.
 ## [ Archon ]
 ### [Archon Factions - Chumtoad](https://github.com/xVal429/IX-Plugins/tree/master/%5B%20Archon%20%5D/archon_factions_chumtoad)
@@ -29,7 +29,7 @@ A plugin to add a prefix & suffix to a message.
 - Usage: /chatmodifier "prefix" "suffix".
 - Does not persist through restarts.
 
-# [ Deprecated ]
+# == Deprecated ==
 I do not offer support for any of these plugins anymore. They may or may not work, and exist to showcase my older work/so I can look back on it.
 #### v_animfixes
 > A plugin which just improves compatability with IX by giving models the proper animation class. No more tposing! Included addons are documented in the plugin.
