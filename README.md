@@ -15,13 +15,14 @@ Adds a standalone Chumtoad faction with a custom animation class to actually ens
 - Includes low-light vision for first-person, the first-person effects can be toggled.
 - Includes some config things.
 
-### Archon - Artifacts
+### [Archon - Artifacts](https://github.com/xVal429/IX-Plugins/tree/master/%5B%20Archon%20%5D/archon_artifacts)
 Equippable items that provide bonuses. Made in ~30 minutes upon request, includes an example item.
 Things it can do:
 - Boost Attributes
 - Boost Movement Speed
 - Add Health Regeneration
 - Add Max Health
+The tooltips don't display the full attribute name, only the internal name. I will change this eventually.
 
 ## [ Leviathan ]
 ### [apollo-attributes](https://github.com/xVal429/IX-Plugins/tree/master/%5B%20Leviathan%20%5D/apollo-attributes)
