@@ -22,6 +22,7 @@ Things it can do:
 - Boost Movement Speed
 - Add Health Regeneration
 - Add Max Health
+  
 The tooltips don't display the full attribute name, only the internal name. I will change this eventually.
 
 ## [ Leviathan ]
