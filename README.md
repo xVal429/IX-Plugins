@@ -15,6 +15,14 @@ Adds a standalone Chumtoad faction with a custom animation class to actually ens
 - Includes low-light vision for first-person, the first-person effects can be toggled.
 - Includes some config things.
 
+### Archon - Artifacts
+Equippable items that provide bonuses. Made in ~30 minutes upon request, includes an example item.
+Things it can do:
+- Boost Attributes
+- Boost Movement Speed
+- Add Health Regeneration
+- Add Max Health
+
 ## [ Leviathan ]
 ### [apollo-attributes](https://github.com/xVal429/IX-Plugins/tree/master/%5B%20Leviathan%20%5D/apollo-attributes)
 An unfinished yet functional rolling system which works similar to D&D. 
