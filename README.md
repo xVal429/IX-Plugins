@@ -7,6 +7,7 @@ Thank you :)
 
 # == Made For Servers ==
 These plugins have been made for various servers, and typically will be the most refined products out of this repository.
+
 ![archon](https://github.com/user-attachments/assets/c8d9b2c6-caf7-463d-99b2-c28d1b58b0e4)
 ### [Archon Factions - Chumtoad](https://github.com/xVal429/IX-Plugins/tree/master/%5B%20Archon%20%5D/archon_factions_chumtoad)
 REQUIREMENT: [Half-Life Resurgence](https://steamcommunity.com/workshop/filedetails/?id=2548809283)
